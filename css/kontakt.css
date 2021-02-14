@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+#kontakt .main-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #272A37;
+}
+
+#kontakt .main-navbar .main-navbar-logo {
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#kontakt .main-navbar .main-navbar-logo .main-navbar-logo-img {
+  width: 70px;
+}
+
+#kontakt .main-navbar .main-navbar-navigation {
+  width: 130%;
+  padding-top: 10px;
+  text-align: right;
+}
+
+#kontakt .main-navbar .main-navbar-navigation .main-navbar-navigation-ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+#kontakt .main-navbar .main-navbar-navigation .main-navbar-navigation-ul a {
+  text-decoration: none;
+  color: white;
+}
+
+#kontakt .main-navbar .main-navbar-navigation .main-navbar-navigation-ul li {
+  font-weight: bold;
+  padding: 16px;
+  display: inline;
+  font-size: 18px;
+}
+
+#kontakt .kontakt-headline {
+  margin-bottom: 60px;
+}
+
+#kontakt .kontakt-headline h1 {
+  margin-left: 20px;
+  font-size: 32px;
+  color: red;
+}
+
+#kontakt .kontakt-headline h3 {
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+#kontakt .map-pics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+}
+
+#kontakt .map-pics .map {
+  margin-left: 3%;
+}
+
+#kontakt .map-pics .map .size-map {
+  width: 600px;
+  height: 500px;
+}
+
+@media (max-width: 1000px) {
+  #kontakt .map-pics .map .size-map {
+    width: 580%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #kontakt .map-pics .pictures {
+    margin-top: 500px;
+  }
+}
+
+#kontakt .map-pics .pictures img {
+  padding: 30px;
+  width: 300px;
+}
+/*# sourceMappingURL=kontakt.css.map */

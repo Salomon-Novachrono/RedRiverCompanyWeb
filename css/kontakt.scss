@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+
+#kontakt {
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #272A37;
+
+        .main-navbar-logo {
+            width: 100px;
+            margin-left: 10px;
+            margin-top: 10px;
+
+            .main-navbar-logo-img {
+                width: 70px;
+            }
+        }
+
+        .main-navbar-navigation {
+            width: 130%;
+            padding-top: 10px;
+            text-align: right;
+
+            .main-navbar-navigation-ul {
+
+                list-style-type: none;
+                padding-left: 0;
+                padding-right: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                li {
+                    font-weight: bold;
+                    padding: 16px;
+                    display: inline;
+                    font-size: 18px;
+
+                }
+            }
+        }
+
+    }
+
+    .kontakt-headline {
+        margin-bottom: 60px;
+
+        h1 {
+            margin-left: 20px;
+            font-size: 32px;
+            color: red;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-left: 40px;
+        }
+
+
+    }
+
+    .map-pics {
+        display:flex;
+        flex-direction: wrap;
+        
+        .map {
+            margin-left: 3%;
+
+            .size-map {
+                width: 600px;
+                height: 500px;
+
+                @media (max-width: 1000px) {
+                    width: 580%;
+                }
+            }
+
+        }
+
+        .pictures {
+            @media (max-width: 1000px) {
+                margin-top: 500px;
+            }
+            img {
+                padding: 30px;
+                width: 300px;
+            }
+        }
+    }
+}
